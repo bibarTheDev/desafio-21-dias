@@ -33,16 +33,21 @@ body {
 }
 
 .content {
-    padding: 30px;
-    width: 100%;
+    /* padding: 30px; */
+    /*
+        normalmente eu colocaria o padding, 
+        mas para poder usar a uunidade de medida relativa %,
+        preferi usar o margin
+    */
+    margin: 30px 30px 0 30px;
     display: block;
 }
 
 .grade {
     display: grid;
     grid-template-rows: 55% 45%;
-    grid-template-columns: 20% 50% 30%;
-    gap: 15px;
+    grid-template-columns: 20% 48% 30%;
+    gap: 1%;
 }
 
 .filtros {

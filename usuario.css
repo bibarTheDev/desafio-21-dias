@@ -43,16 +43,21 @@ p.sub-title {
 }
 
 .content {
-    padding: 30px;
-    width: 100%;
+    /* padding: 30px; */
+    /*
+        normalmente eu colocaria o padding, 
+        mas para poder usar a uunidade de medida relativa %,
+        preferi usar o margin
+    */
+    margin: 30px 30px 0 30px;
     display: block;
 }
 
 .grade {
     display: grid;
     grid-template-rows: 50% 50%;
-    grid-template-columns: 20% 40% 40%;
-    gap: 15px;
+    grid-template-columns: 20% 39% 39%;
+    gap: 1%;
 }
 
 .dados {
