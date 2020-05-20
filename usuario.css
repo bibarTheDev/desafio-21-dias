@@ -1,0 +1,146 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a, a:link, a:visited {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+}
+
+p.sub-title {
+    margin: 0;
+    font-weight: bold;
+}
+
+.align-left {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header {
+    background-color: #222;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 35px;
+}
+
+.barra {
+    color: whitesmoke;
+}
+
+.barra > * {
+    margin: 0 3px;
+}
+
+.content {
+    /* padding: 30px; */
+    /*
+        normalmente eu colocaria o padding, 
+        mas para poder usar a uunidade de medida relativa %,
+        preferi usar o margin
+    */
+    margin: 30px 30px 0 30px;
+    display: block;
+}
+
+.grade {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 20% 39% 39%;
+    gap: 1%;
+}
+
+.dados {
+    grid-row: 1 / 3;
+    grid-column: 1 / 2;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: #f8f9fa;
+}
+
+.dados-cont > * {
+    margin: 0 0 15px 0;
+}
+
+.dados-foto {
+    display: flex;
+    justify-content: center;
+}
+
+.dados-perf {
+    display: flex;
+    flex-direction: column;
+}
+
+.dados-perf-text {
+    margin: 8px 0;
+    color: #555;
+}
+
+.dados-perf-text > span {
+    color: black;
+}
+
+.profissional {
+    grid-row: 1 / 3;
+    grid-column: 2 / 3;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: #f8f9fa;
+}
+
+.dados-pro-text {
+    margin: 8px 0;
+    color: #555;
+}
+
+.dados-pro-text > span {
+    color: black;
+}
+
+.ideias-part {
+    grid-row: 1 / 3;
+    grid-column: 3 / 4;
+    padding: 15px;
+
+    background-color: #f8f9fa;
+}
+
+.ideias-part-topo > * {
+    margin: 0 0 15px 0;
+}
+
+.ideias-part-cont {
+    display: flex;
+    flex-direction: column;
+}
+
+.ideia-elem {
+    margin: 20px 0 0;
+    padding: 0 16px;
+    background-color: #FCB833;
+
+    display: inline-block;
+}
+
+.ideia-elem > p {
+    margin: 12px 0;
+}
