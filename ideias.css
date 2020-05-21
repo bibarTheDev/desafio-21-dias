@@ -87,7 +87,7 @@ body {
 .ideia-elem {
     margin: 20px 0 0;
     padding: 0 16px;
-    background-color: #FCB833;
+    background-color: #fcc65b;
 
     display: inline-block;
 }
@@ -131,7 +131,7 @@ body {
 .usuario-elem {
     margin: 20px 0 0;
     padding: 0 16px;
-    background-color: #00ADEE;
+    background-color: #7fd6f6;
 
     display: inline-block;
 }
