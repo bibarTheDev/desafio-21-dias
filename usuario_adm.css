@@ -95,52 +95,81 @@ p.sub-title {
     color: black;
 }
 
-.profissional {
+.usuarios {
     grid-row: 1 / 3;
     grid-column: 2 / 3;
     padding: 15px;
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 
     background-color: #f8f9fa;
 }
 
-.dados-pro-text {
-    margin: 8px 0;
-    color: #555;
+.usuarios-topo > * {
+    margin: 0 0 15px 0;
 }
 
-.dados-pro-text > span {
-    color: black;
+.usuario-elem {
+    display: flex;
+    flex-direction: row;
+    
+    padding: 12px;
+    background-color: #7fd6f6;
+
+    margin: 0 0 15px 0;
 }
 
-.ideias-part {
+.usuario-elem > img {
+    width: 48px;
+    height: 48px;
+    margin: 0 12px 0 0;
+}
+
+.usuario-elem-cont > p {
+    margin: 0;
+    color: #333;
+}
+
+.usuario-elem-nome {
+    margin: 0 0 10px 0;
+    color: black !important;
+}
+
+.empresas {
     grid-row: 1 / 3;
     grid-column: 3 / 4;
     padding: 15px;
 
+    display: flex;
+    flex-direction: column;
+
     background-color: #f8f9fa;
 }
 
-.ideias-part-topo > * {
+.empresas-topo > * {
     margin: 0 0 15px 0;
 }
 
-.ideias-part-cont {
-    display: flex;
-    flex-direction: column;
-}
 
-.ideia-elem {
-    margin: 20px 0 0;
-    padding: 0 16px;
+.empresa-elem {
+    display: flex;
+    flex-direction: row;
+    
+    padding: 12px;
     background-color: #fcc65b;
 
-    display: inline-block;
+    margin: 0 0 15px 0;
 }
 
-.ideia-elem > p {
-    margin: 12px 0;
+.empresa-elem > img {
+    width: 48px;
+    height: 48px;
+    margin: 0 12px 0 0;
 }
+
+.empresa-elem-cont > p {
+    margin: 0;
+    color: black;
+}
+
